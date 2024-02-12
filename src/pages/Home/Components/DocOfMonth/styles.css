@@ -1,0 +1,9 @@
+.chart-review-star-shadow {
+  box-shadow: -5px -5px 10px #ffffff20, 5px 5px 10px #00000020;
+}
+.line-shadow {
+  box-shadow: 0px 22px 10px #00000020;
+}
+.line-shadow-dark {
+  box-shadow: 0px 22px 10px #1d1d1d;
+}

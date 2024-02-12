@@ -1,0 +1,265 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.m-left {
+  margin-left: 25px;
+}
+.m-right {
+  margin-right: 20px;
+}
+.payment-parent-container {
+  max-width: 850px;
+  width: 100%;
+  background: inherit;
+  overflow-y: scroll;
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+.payment-parent-container h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 15px;
+  color: #252525;
+}
+.location-container {
+  display: flex;
+  justify-content: center;
+}
+.location-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 196px;
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  box-shadow: 0px -10px 20px #faf6fb, 0px 10px 20px rgba(56, 17, 63, 0.1);
+}
+.location-content div {
+  display: flex;
+}
+.location-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3edf4;
+  box-shadow: -5px -5px 10px #faf6fb, 5px 5px 10px #dfd3e1;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+}
+.counts-block h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 13px;
+  background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+.counts-block h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 11px;
+  color: #252525;
+}
+.card-container {
+  margin: 40px 25px 0px 25px;
+  background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+  border-radius: 35px;
+  height: 198px;
+  position: relative;
+  overflow: hidden;
+}
+.card-container-bg-dark {
+  background: #252525;
+}
+.gradient-shadow {
+  background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+  filter: blur(25px);
+  height: 43px;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: -25px;
+}
+.card-innerShape1 {
+  position: absolute;
+  width: 200px;
+
+  left: 0;
+  bottom: 0;
+}
+.card-innerShape2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+}
+.card-name {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 23px;
+  margin-right: 30px;
+}
+.card-name h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 33px;
+}
+.card-name img {
+  margin-top: 16px;
+}
+.card-number {
+  display: flex;
+  gap: 23px;
+  margin-left: 23px;
+  margin-top: 30px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.card-expire {
+  display: flex;
+  justify-content: space-between;
+}
+.card-expire-content {
+  margin-top: 29px;
+}
+
+.card-expire-content h3 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+.card-expire-content span {
+  margin-left: 23px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.card-type {
+  margin-right: 30px;
+  display: flex;
+  align-items: end;
+  margin-top: 33px;
+}
+.payment-method-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  margin-top: 50px;
+}
+.payment-method-container h2 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}
+.payment-method-container h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+}
+.payment-method-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.payment-cash {
+  background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+  box-shadow: -10px -10px 20px #faf6fb, 10px 10px 20px #dfd3e1;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 0;
+  align-items: center;
+}
+.payment-cash-dark {
+  background: ;
+}
+.payment-cash h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-left: 25px;
+}
+.payment-otherOption {
+  background: #f3edf4;
+  box-shadow: -10px -10px 20px #faf6fb, 10px 10px 20px #dfd3e1;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 0;
+  align-items: center;
+}
+.payment-otherOption h1 {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  color: #252525;
+}
+.upi-types {
+  display: flex;
+  gap: 7px;
+}
+.wallet-type {
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 360px) {
+  .card-number {
+    display: flex;
+    gap: 9px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .card-name {
+    margin-right: 25px;
+  }
+  .card-type {
+    margin-top: 20px;
+    margin-right: 25px;
+  }
+  .card-type img {
+    width: 61px;
+  }
+  .card-expire-content h3 {
+    margin-top: 19px;
+  }
+}

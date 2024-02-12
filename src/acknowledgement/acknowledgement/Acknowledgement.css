@@ -1,0 +1,96 @@
+.ack_container {
+    background: #007FFF;
+}
+
+.ack_img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    padding-top: 20%;
+}
+
+.act_text {
+    text-align: center;
+    font-family: 'FONTSPRING DEMO - Priego Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+    width: 75%;
+    display: block;
+    margin:10% auto;
+}
+
+.act_para {
+    text-align: center;
+    font-family: 'FONTSPRING DEMO - Priego Bold', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #FFFFFF;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.ack_img2 {
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.ack_img3 {
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 58%;
+}
+
+.ack_btn1 {
+    width: 50%;
+    height: 50px;
+    background: #17224D;
+    box-shadow: 5px 5px 10px #0063C7;
+    border-radius: 10px;
+    border: 1PX solid #0063C7;
+    font-family: 'FONTSPRING DEMO - Priego Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    color: #F5FAFA;
+    display: block;
+    margin: 40px auto 15px auto;
+}
+
+.ack_btn2 {
+    width: 50%;
+    height: 50px;
+    background: #007FFF;
+    border-radius: 10px;
+    border: 1PX solid black;
+    font-family: 'FONTSPRING DEMO - Priego Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #17224D;
+    margin-top: 15px;
+    display: block;
+    margin: 15px auto 25% auto;
+}
+.ack_btn1:focus-visible {
+    outline: none !important;
+}
+.ack_btn2:focus-visible {
+    outline: none !important;
+}

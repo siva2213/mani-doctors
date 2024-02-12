@@ -1,0 +1,169 @@
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+.w-100 {
+    width: 100%;
+}
+.sub-heading {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #252525;
+}
+.heading {
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: #252525;
+}
+.ml-25 {
+    margin-left: 25px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.otherOption-parent-container {
+    max-width: 850px;
+    width: 100%;
+    background: #F2ECF3;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.otherOption-parent-container h3 {
+    padding-top: 20px;
+}
+
+.otherOption-parent-container h1 {}
+
+.otherOption-content-block {
+    width: 100%;
+    height: 350px;
+    background: #ECC0D9;
+}
+
+.reviews-block-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient-slider-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.garadient-slider {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 55px;
+    height: 5px;
+}
+
+.slidebar {
+    width: 21px;
+    background: linear-gradient(90deg, #AD37E0 0%, #EE2B3B 101.91%);
+    border-radius: 20px;
+    height: 5px;
+}
+
+.slider-reviews-block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.slider-content {
+    background: #F3EDF4;
+    box-shadow: -10px -10px 20px #FAF6FB, 10px 10px 20px #DFD3E1;
+    border-radius: 30px;
+    height: 275px;
+    position: relative;
+}
+
+.review-detail {
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 90px;
+}
+
+.userImg img {
+    width: 100%;
+}
+
+.userName h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #252525;
+}
+
+.rating-container {
+    background: #F5D4E7;
+    box-shadow: -5px -5px 10px #FAF6FB, 5px 5px 10px #DFD3E1;
+    border-radius: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.rating-container span {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #252525;
+}
+
+.review {
+    background: #F3EDF4;
+    box-shadow: inset -5px -5px 10px #FAF6FB, inset 5px 5px 10px #DFD3E1;
+    border-radius: 20px;
+    height: 131px;
+    margin: 0 20px;
+}
+
+.review p {
+    margin: 20px 15px;
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113%;
+    color: #252525;
+    padding-top: 20px;
+    margin: 0px 15px;
+    font-style: normal
+}
+
+.doubleQuotes {
+    position: absolute;
+    right: 25px;
+}
+
+@media (max-width: 360px) {
+    .review p {
+        font-size: 10px;
+        padding-top: 10px
+    }
+    .doubleQuotes {
+        width: 30px;
+        right: 20px;
+    }
+}

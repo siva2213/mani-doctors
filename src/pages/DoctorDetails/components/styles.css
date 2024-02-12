@@ -1,0 +1,11 @@
+.carousel-window {
+  overflow: hidden;
+}
+.carousel-row {
+  position: relative;
+}
+
+.carousel-container {
+  position: absolute;
+  width: 100%;
+}
